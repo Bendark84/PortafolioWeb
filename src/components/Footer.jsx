@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <Card.Body>
           <Card.Title>
             {' '}
-            <h1> Contact Me </h1>
+            <h1 className="text-contatMe"> Contact Me </h1>
           </Card.Title>
 
           <Button className="text-center" variant="succes">

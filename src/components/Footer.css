@@ -1,0 +1,19 @@
+/*------------Footer Contact--------------------*/
+
+.a-footer {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 10px;
+}
+.text-contatMe {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .a-footer {
+    font-size: 30px;
+  }
+  .text-contatMe {
+    font-size: 50px;
+  }
+}

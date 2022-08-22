@@ -1,0 +1,80 @@
+/*---------About Me-------------------*/
+
+.CV {
+  text-decoration: none;
+}
+
+.card-container-aboutMe {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.card-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMe-text {
+  font-size: 10px;
+  padding: 0.5rem;
+}
+.logoBen {
+  width: 30px;
+}
+.aboutme-text{
+    font-size: 20px;
+}
+
+
+
+@media screen and (min-width: 400px) {
+
+    .aboutme-text{
+        font-size: 30px;
+    }
+
+    .aboutMe-text {
+        font-size: 12px;
+        
+      }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    /*about me*/
+    .logoBen {
+      width: 80px;
+    }
+    .CV {
+      text-decoration: none;
+    }
+  
+    .card-container-aboutMe {
+      margin: 0.5rem;
+      padding: 1rem;
+    }
+    .aboutme-text{
+        font-size: 50px;
+    }
+  
+    .card-me {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .aboutMe-text {
+      font-size: 16px;
+      padding: 1rem;
+    }
+  
+    .justify-content-around button {
+      margin: 1rem;
+      text-align: center;
+      font-size: 20px;
+    }
+    .container-works {
+      height: 80vh;
+      margin: 2rem;
+      padding: 1rem;
+    }

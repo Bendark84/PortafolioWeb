@@ -2,15 +2,16 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import Curriculum from '../assets/Benjamin R Calix Currículum.pdf';
 import LogoBen from '../images/Ojo.png';
+import './AboutMe.css';
 
 const AboutMe = () => {
   return (
     <div className="card-container-aboutMe" id="aboutme">
       <div className="card-aboutMe">
-        <h1> About Me </h1>
+        <h1 className="aboutme-text"> About Me </h1>
         <>
           <div className="card-me">
-            <Card border="primary" style={{ width: '50rem', height: '30vh' }}>
+            <Card border="primary" style={{ width: '50rem', height: '50vh' }}>
               <Card.Body className="card-body-about">
                 <Card.Text className="aboutMe-text">
                   ¡Hola! Me llamo <strong> Benjamin Rodriguez Calix </strong> y

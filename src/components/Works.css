@@ -1,0 +1,114 @@
+/*------------Works-------------------*/
+.justify-content-around a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+.justify-content-around img {
+  height: 100px;
+  width: 25vh;
+  border-radius: 5px;
+}
+.justify-content-around button {
+  margin: 0.2rem;
+  text-align: center;
+  font-size: 8px;
+}
+
+.container-works {
+  font-size: 10px;
+  height: 20%;
+
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.works-title {
+  font-size: 20px;
+  margin: 2rem;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.Pokedex {
+  transition: all 400ms ease;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.Pokedex:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.RickYMorty {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #282828;
+  transition: all 400ms ease;
+  border-radius: 10px;
+}
+
+.RickYMorty:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+.Ecommerce {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #282828;
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+
+.Ecommerce:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+.CrudApi {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #282828;
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+
+.CrudApi:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+.WheatherApp {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: #282828;
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+
+.WheatherApp:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.title-card-work {
+  font-size: 16px;
+}
+.text-card-work {
+  font-size: 8px;
+}
+
+@media screen and (min-width: 1000px) {
+  .works-title {
+    font-size: 50px;
+  }
+  .title-card-work {
+    font-size: 24px;
+  }
+  .text-card-work {
+    font-size: 16px;
+  }
+}

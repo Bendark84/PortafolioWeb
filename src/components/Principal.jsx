@@ -1,13 +1,14 @@
 import React from 'react';
 import Galaxy from '../assets/Galaxia.mp4';
 import Typewriter from 'typewriter-effect';
+import './Principal.css';
 
 const Principal = () => {
   return (
     <div>
       <div className="bg home"></div>
       <div className="bg-text container">
-        <h1>
+        <h1 className="text-h1">
           <span className="maquinaEscribir">
             {' '}
             <Typewriter
