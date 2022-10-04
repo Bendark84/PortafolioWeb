@@ -29,6 +29,15 @@ const Software = () => {
           {' '}
           <img
             className="card-logo"
+            src="https://everyday.codes/wp-content/uploads/2020/01/0-U2DmhXYumRyXH6X1.png"
+            alt=""
+          />
+          <h6>Redux</h6>
+        </li>
+        <li className="container-logo">
+          {' '}
+          <img
+            className="card-logo"
             src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
             alt=""
           />
@@ -97,6 +106,43 @@ const Software = () => {
             alt=""
           />
           <h6>Suite Adobe</h6>
+        </li>
+        <li className="container-logo">
+          {' '}
+          <img
+            className="card-logo"
+            src="https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png"
+            alt=""
+          />
+          <h6>Nodejs</h6>
+        </li>
+
+        <li className="container-logo">
+          {' '}
+          <img
+            className="card-logo"
+            src="https://hyunseob.github.io/images/sequelizejs.png"
+            alt=""
+          />
+          <h6>Sequelize</h6>
+        </li>
+        <li className="container-logo">
+          {' '}
+          <img
+            className="card-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png"
+            alt=""
+          />
+          <h6>Postgresql</h6>
+        </li>
+        <li className="container-logo">
+          {' '}
+          <img
+            className="card-logo"
+            src="https://avatars.githubusercontent.com/u/10251060?s=200&v=4"
+            alt=""
+          />
+          <h6>Postman</h6>
         </li>
       </ul>
     </div>
