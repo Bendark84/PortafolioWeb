@@ -104,7 +104,7 @@ const Works = () => {
         <div className="CrudApi">
           <Card.Img
             variant="top"
-            src="https://www.dorusomcutean.com/wp-content/uploads/2020/03/crud.jpg"
+            src="https://www.ervinsantos.com//cdn/blog/26112019-Crud_01.png"
           />
           <Card.Body>
             <Card.Title className="title-card-work">CRUD API</Card.Title>
